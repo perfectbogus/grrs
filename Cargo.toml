@@ -6,4 +6,10 @@ edition = "2021"
 [dependencies]
 anyhow = "1.0.86"
 clap = { version = "4.5.13", features = ["derive"] }
+env_logger = "0.11.5"
+indicatif = "0.17.8"
+log = "0.4.22"
 
+[dev-dependencies]
+assert_cmd = "2.0.15"
+predicates = "3.1.2"
